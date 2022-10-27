@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Мой счет</title>
+</head>
+<body>
+    <header class="header container" id="header">
+        <div class="header__wrapper">
+            <div class="deals-logo">
+                <a href="../../index.html" class="header__logo"><span class="green">M</span>elby</a>
+       
+            </div>
+            <nav class="header__nav deals-nav header__nav-copy">
+                <ul class="header__ul deals-ul">
+                    <li class="header__li">
+                        <a href="/assets/pages/for-whom.html" class="header__link">Для кого</a>
+                    </li>
+                    <!-- <li class="header__li">
+                        <a href="/assets/pages/help.html" class="header__link">Помощь</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="/assets/pages/sertificat.html" class="header__link">Сертификаты</a>
+                    </li> -->
+                    <li class="header__li">
+                        <a href="../../index.html#review" class="header__link">Отзывы</a>
+                    </li>
+                </ul>
+                <ul class="header__ul">
+                    <li class="header__li">
+                        <a href="deals.html" class="header__link" >Мои сделки</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link deals-message-wrapper">Сообщения
+                             <!-- <span class="deals-message">1</span> -->
+                        </a>
+                    </li>
+                    <li class="header__li">
+                        <a href="core.html" class="header__link deals-price-wrapper">Мой счёт <span class="deals-price">20 000.00<span class="rubl">&#8381</span></span></a>
+                    </li>
+                    <li class="header__li">
+                        <a href="settings-account.html" class="header__link deals-user green">
+                            <picture>
+                                <svg class="deals-user-icon" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_1986)">
+                                    <path d="M12 12.5C14.21 12.5 16 10.71 16 8.5C16 6.29 14.21 4.5 12 4.5C9.79 4.5 8 6.29 8 8.5C8 10.71 9.79 12.5 12 12.5ZM12 14.5C9.33 14.5 4 15.84 4 18.5V20.5H20V18.5C20 15.84 14.67 14.5 12 14.5Z"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_1986">
+                                    <rect width="24" height="24" transform="translate(0 0.5)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                    
+                            </picture>
+                            <p>ShtirlitzA</p></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header> 
+    <div class="page">
+    <main class="main">
+        <section class="deals__banner-wrapper container">
+            <div class="core__wrapper">
+            <div class="deals__banner deals__status-banner">
+                <p class="deal__banner-text deal__banner-text-status">Мой счет: <span>20500<span class="rubl">&#8381</span></span></p>
+                <a href="put-core.html" class="btn ">Пополнить счёт</a>
+            </div>
+            <div class="deals__sum-line core-line"></div>
+            <div class="notification">
+                <div class="notification__item">melby.ru не является банком, платежной системой или иной финансовой организацией и не ведет расчетные счета пользователей.
+                    Кабинет melby.ru обеспечивает лишь удобство расчетов между Клиентами.</div>
+                    <div class="notification__item">Перевод осуществляется в течении 24ч.
+                        Кабинет melby.ru обеспечивает лишь удобство расчетов между Клиентами.</div>
+                        <div class="notification__item">nikname, на данный момент, переводы и выводы для вашей учетной записи приостановлены. Описание причины ограничений вы можете найти в системных сообщениях.</div>
+            </div>
+        </div>
+        </section>
+
+        <section class="history container">
+            <p class="history__title">История</p>
+            <div class="can__items history__items">
+                <a href="core.html" class="can__item history__item stop-active transfer-hostory">История пополнений</a>
+                <a href="core.html" class="can__item history__item stop-active">Выводы по реквизитам</a>
+                <div class="can__item history__item active">Перевод пользователю</div>
+            </div>
+            
+            <!-- <div class="hostory__takes">
+                <div class="hostory__take hostory__take-first">
+                    <div class="hostory__take-id">
+                        <p>ID</p>
+                        <span>110</span>
+                    </div>
+                    <div class="hostory__take-date">
+                        <p>Дата</p>
+                        <span>2022-09-18 19:50</span>
+                    </div>
+                    <div class="hostory__take-type">
+                        <p>Тип реквизита</p>
+                        <span>Сбербанк</span>
+                    </div>
+                    <div class="hostory__take-number">
+                        <p>Номер счета</p>
+                        <span>2019232193</span>
+                    </div>
+                    <div class="hostory__take-sum">
+                        <p>Сумма</p>
+                        <span>50000Р</span>
+                    </div>
+                    <div class="hostory__take-status">
+                        <p>Статус</p>
+                        <span class="green">Оплачено <img src="/assets/img/deals-status.svg" alt="Оплачено"></span>
+                    </div>
+                </div>
+                <div class="deals__sum-line history-line"></div>
+                <div class="hostory__take hostory__take-second">
+                    <div class="hostory__take-id">
+                        <p>ID</p>
+                        <span>110</span>
+                    </div>
+                    <div class="hostory__take-date">
+                        <p>Дата</p>
+                        <span>2022-09-18 19:50</span>
+                    </div>
+                    <div class="hostory__take-type">
+                        <p>Тип реквизита</p>
+                        <span>Сбербанк</span>
+                    </div>
+                    <div class="hostory__take-number">
+                        <p>Номер счета</p>
+                        <span>2019232193</span>
+                    </div>
+                    <div class="hostory__take-sum">
+                        <p>Сумма</p>
+                        <span>50000Р</span>
+                    </div>
+                    <div class="hostory__take-status">
+                        <p>Статус</p>
+                        <span class="green">Оплачено <img src="/assets/img/deals-status.svg" alt="Оплачено"></span>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="history__takes history__history" id="history"></div> -->
+            <div class="hostory__takes history__transfers">
+                <form class="history__transfer-form">
+                    <label>
+                        Логин пользователя
+                        <input type="text" class="history__transfer-user_login input" placeholder="">
+                    </label>
+                    <label>
+                        Cумма
+                        <div class="history__transfer-sumwrapper">
+                            <input type="text" class="history__transfer-input_sum input" placeholder="">
+                            <div class="ruble">&#8381;</div>
+                        </div>
+                    </label>
+                    <button class="btn history__transfer-send">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section deals-footer">
+        <div class="footer__wrapper container">
+            <div class="footer__main">
+                <a href="../../index.html" class="footer__logo header__logo"><span class="green">M</span>elby</a>
+                <div class="footer__links">
+                    <a href="#" class="footer__link header__link">Для кого</a>
+                    <a href="#" class="footer__link header__link">Помощь</a>
+                    <a href="#" class="footer__link header__link">Сертификаты</a>
+                    <a href="#" class="footer__link header__link">Отзывы</a>
+                </div>
+                <div class="footer__images">
+                    <img src="/assets/img/footer1.svg" alt="Webmoney">
+                    <img src="/assets/img/footer2.svg" alt="Pci">
+                    <img src="/assets/img/footer3.svg" alt="SSL">
+                </div>
+            </div>
+            <div class="footer__copyright">
+                ©2020-2022 Гарант сервис melby.ru
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

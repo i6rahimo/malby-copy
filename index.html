@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="/assets/css/styles.css">
+
+        <title>Malby Гарант-сервис</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header container" id="header">
+            <div class="header__wrapper">
+                <a href="#" class="header__logo"><span class="green">M</span>elby</a>
+                <nav class="header__nav header__nav-copy">
+                    <ul class="header__ul">
+                        <li class="header__li">
+                            <a href="/assets/pages/for-whom.html" class="header__link">Для кого</a>
+                        </li>
+                        <!-- <li class="header__li header__li-delete">
+                            <a href="/assets/pages/help.html" class="header__link">Помощь</a>
+                        </li>
+                        <li class="header__li header__li-delete">
+                            <a href="/assets/pages/sertificat.html" class="header__link">Сертификаты</a>
+                        </li> -->
+                        <li class="header__li">
+                            <a href="#review" class="header__link">Отзывы</a>
+                        </li>
+                    </ul>
+                    <ul class="header__ul header__ul-register">
+                        <li class="header__li">
+                            <a href="/assets/pages/sign-in.html" class="header__link header__link-signin">Войти</a>
+                        </li>
+                        <li class="header__li">
+                            <a href="/assets/pages/sign-up.html" class="header__link green header__link-signup">Создать аккаунт</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section container" id="home">
+                <div class="home__text">
+                    <h1 class="home__text-title">Гарант-сервис для проведения безопасных
+                        сделок в <span>Интернете</span></h1>
+                    <div class="home__text-btns">
+                        <a href="/assets/pages/sign-up.html" class="btn home__text-btn">Создать аккаунт</a>
+                        <a href="/assets/pages/howitworks.html" class="home__text-btn"><img src="/assets/img/home-play.svg" alt="Видео">Как это работает?</a>
+                    </div>
+                </div>
+                <div class="home__img">
+                    <img src="/assets/img/home-bg.png" alt="Фон главного экрана">
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="company container">
+                <!-- <div class="company__wrapper"> -->
+                    <img src="/assets/img/qiwi.svg" alt="Qiwi">
+                    <img src="/assets/img/robokassa.svg" alt="Robokassa">
+                    <img src="/assets/img/avito.svg" alt="Avito">
+                    <img src="/assets/img/boxberry.svg" alt="Boxberry">
+                    <img src="/assets/img/get.svg" alt="Gett">
+                <!-- </div> -->
+            </section>
+            
+            <!--==================== POPULAR ====================-->
+            <section class="about" id="popular">
+                <div class="about__wrapper container">
+                    <div class="about__img">
+                        <img src="/assets/img/about.png" alt="Что такое безопасная сделка">
+                    </div>
+                    <div class="about__text ">
+                        <h2 class="about__text-title">Что такое <span>безопасная</span> сделка? </h2>
+                        <p class="about__text-subtitle">Безопасная сделка – сервис защиты покупателя и продавца в интернете.</p>
+                        <p class="about__text-text">Безопасная сделка гарантирует 100% предоплату, которая хранится на счете гаранта <span>melby.ru</span>, пока продавец не выполнит все свои обязательства, а покупатель не получит товар или услугу. Также безопасная сделка обеспечивает сохранность средств покупателя: если продавец нарушает условия сделки, гарант-сервис <span>melby.ru</span> возвращает средства или предлагает покупателю скидку.</p>
+                        <a href="/assets/pages/sign-up.html" class="btn about__btn">Создать аккаунт</a>
+                    </div>
+                </div>
+                    <!-- <div class="support">
+                        <img src="/assets/img/message.svg" alt="Сообщение">
+                    </div> -->
+            </section>
+            
+            <!--==================== VALUE ====================-->
+            <section class="work section container" id="work">
+                <h2 class="work__title">Как это работает?</h2>
+                <img src="/assets/img/work.png" alt="Как это работает?">
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="can section container" id="can">
+                <h2 class="can__title">Что можно сделать через наш сервис?</h2>
+                <div class="can__items">
+                    <div class="can__item active">Купить через гарант</div>
+                    <div class="can__item">Продать через гарант</div>
+                    <div class="can__item">Фриланс услуги</div>
+                </div>
+                <div class="can__steps">
+                    <div class="can__step">
+                        <img src="/assets/img/create.svg" alt="Создать">
+                        <p class="can__step-title">Создать сделку</p>
+                        <p class="can__step-subtitle">Заполните все поля, логин продавца, условия сделки, <br> цену, сроки.</p>
+                    </div>
+                    <div class="can__step">
+                        <img src="/assets/img/time.svg" alt="Дождитесь">
+                        <p class="can__step-title">Дождитесь продавца</p>
+                        <p class="can__step-subtitle">Продавец должен перейти <br> в пункт Мои Сделки, после <br> чего перейти на страницу <br> самой сделки и принять.</p>
+                    </div>
+                    <div class="can__step">
+                        <img src="/assets/img/deal.svg" alt="Провести сделку">
+                        <p class="can__step-title">Провести сделку</p>
+                        <p class="can__step-subtitle">Подробный процесс <br> проведения сделки <br> описан ниже.</p>
+                    </div>
+                    <div class="can__step">
+                        <img src="/assets/img/allow.svg" alt="Подтвердите оплату">
+                        <p class="can__step-title">Подтвердите оплату</p>
+                        <p class="can__step-subtitle">Если товар соответствует <br> заявленным характеристикам, после получения подтвердите платеж.</p>
+                    </div>
+                </div>
+            </section>  
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="accordion section container">
+                <h2 class="accordion__title">Схема работы гарант сервиса</h2>
+                <div class="accordion__wrapper">
+                <div class="accordion__items">
+                    <div class="accordion__item">
+                         <div class="accordion__item-up">
+                            <div class="accordion__item-left">
+                            <div class="accorion__item-svg ">
+                                <svg width="24" height="25" class="accorion__item-svg" viewBox="0 0 24 25"  xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_1986)">
+                                    <path d="M12 12.5C14.21 12.5 16 10.71 16 8.5C16 6.29 14.21 4.5 12 4.5C9.79 4.5 8 6.29 8 8.5C8 10.71 9.79 12.5 12 12.5ZM12 14.5C9.33 14.5 4 15.84 4 18.5V20.5H20V18.5C20 15.84 14.67 14.5 12 14.5Z" />
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_1986">
+                                    <rect width="24" height="24"  transform="translate(0 0.5)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                            </div>
+                            <p class="accordion__item-title">Регистрация</p>
+                        </div>
+                            <div class="accordion__item-open">
+                                <p class="close">-</p>
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <p class="accordion__item-text">Услуги нашего сервиса безопасных сделок предоставляются только после того, как оба участника регистрируются на сайте.</p>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__item-up">
+                            <div class="accordion__item-left">
+                           <div class="accorion__item-svg">
+                            <svg width="24" height="25" class="accorion__item-svg" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_1994)">
+                                <path d="M20 2.5H4C2.9 2.5 2 3.4 2 4.5V22.5L6 18.5H20C21.1 18.5 22 17.6 22 16.5V4.5C22 3.4 21.1 2.5 20 2.5Z"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_1994">
+                                <rect width="24" height="24"  transform="translate(0 0.5)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                           </div>
+                           <p class="accordion__item-title">Обсуждение условий сделки</p>
+                        </div>
+                           <div class="accordion__item-open">
+                               <p class="close">-</p>
+                               <p>+</p>
+                            </div>
+                        </div>
+                        <p class="accordion__item-text">Услуги нашего сервиса безопасных сделок предоставляются только после того, как оба участника регистрируются на сайте.</p>
+                   </div>
+                   <div class="accordion__item">
+                    <div class="accordion__item-up">
+                        <div class="accordion__item-left">
+                       <div class="accorion__item-svg">
+                        <svg class="accorion__item-svg" width="24" height="25" viewBox="0 0 24 25"  xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_2000)">
+                            <path d="M8 16.5H16V18.5H8V16.5ZM8 12.5H16V14.5H8V12.5ZM14 2.5H6C4.9 2.5 4 3.4 4 4.5V20.5C4 21.6 4.89 22.5 5.99 22.5H18C19.1 22.5 20 21.6 20 20.5V8.5L14 2.5ZM18 20.5H6V4.5H13V9.5H18V20.5Z" />
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_2000">
+                            <rect width="24" height="24"  transform="translate(0 0.5)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                       </div>
+                       <p class="accordion__item-title">Открытие сделки</p>
+                    </div>
+                       <div class="accordion__item-open">
+                        <p class="close">-</p>
+                        <p>+</p>
+                        </div>
+                    </div>
+                    <p class="accordion__item-text">Услуги нашего сервиса безопасных сделок предоставляются только после того, как оба участника регистрируются на сайте.</p>
+                    </div>
+                   <div class="accordion__item">
+                    <div class="accordion__item-up">
+                        <div class="accordion__item-left">
+                    <div class="accorion__item-svg">
+                        <svg class="accorion__item-svg" width="24" height="25" viewBox="0 0 24 25"  xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_2006)">
+                            <path d="M17 12.5C14.24 12.5 12 14.74 12 17.5C12 20.26 14.24 22.5 17 22.5C19.76 22.5 22 20.26 22 17.5C22 14.74 19.76 12.5 17 12.5ZM18.65 19.85L16.5 17.7V14.5H17.5V17.29L19.35 19.14L18.65 19.85ZM18 3.5H14.82C14.4 2.34 13.3 1.5 12 1.5C10.7 1.5 9.6 2.34 9.18 3.5H6C4.9 3.5 4 4.4 4 5.5V20.5C4 21.6 4.9 22.5 6 22.5H12.11C11.52 21.93 11.04 21.25 10.69 20.5H6V5.5H8V8.5H16V5.5H18V10.58C18.71 10.68 19.38 10.89 20 11.18V5.5C20 4.4 19.1 3.5 18 3.5ZM12 5.5C11.45 5.5 11 5.05 11 4.5C11 3.95 11.45 3.5 12 3.5C12.55 3.5 13 3.95 13 4.5C13 5.05 12.55 5.5 12 5.5Z" />
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_2006">
+                            <rect width="24" height="24"  transform="translate(0 0.5)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                    </div>
+                    <p class="accordion__item-title">Исполнение обязательств</p>
+                </div>
+                    <div class="accordion__item-open">
+                        <p class="close">-</p>
+                   <p>+</p>
+                    </div>
+                </div>
+                <p class="accordion__item-text">Услуги нашего сервиса безопасных сделок предоставляются только после того, как оба участника регистрируются на сайте.</p>
+                   </div>
+                   <div class="accordion__item">
+            <div class="accordion__item-up">
+                <div class="accordion__item-left">
+               <div class="accorion__item-svg">
+                <svg class="accorion__item-svg" width="24" height="25" viewBox="0 0 24 25"  xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2012)">
+                    <path d="M22 3.91L16.71 9.2L20 12.5H12V4.5L15.29 7.79L20.59 2.5L22 3.91ZM3.41 22.5L8.7 17.21L12 20.5V12.5H4L7.29 15.79L2 21.09L3.41 22.5Z" />
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2012">
+                    <rect width="24" height="24"  transform="translate(0 0.5)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+               </div>
+               <p class="accordion__item-title">Закрытие сделки</p>
+            </div>
+               <div class="accordion__item-open">
+                   <p class="close">-</p>
+                   <p>+</p>
+                </div>
+            </div>
+            <p class="accordion__item-text">Услуги нашего сервиса безопасных сделок предоставляются только после того, как оба участника регистрируются на сайте.</p>
+               </div>
+                </div>
+                <div class="accordion__right">
+                    <img src="/assets/img/accordion-bg.png" alt="">
+                    <p class="accordion__right-title">У вас остались вопросы?</p>
+                    <p class="accordion__right-text">Задайте их в нашем чате поддержки и мы поможем</p>
+                    <button class=" accordion__right-btn btn ">Открыть чат с поддержкой</button>
+                </div>
+            </div>
+            </section>
+
+            <section class="comment section container" id="review">
+                <h2 class="comment__title">Отзывы</h2>
+                <div class="swiper">
+                    <!-- <div class="swiper-pagination"> -->
+                        <!-- <span class="swiper-pagination-dot"></span> -->
+                    <!-- </div>                Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-name"><img src="/assets/img/swiper1.svg" alt="Отзыв">Gardon228</div>
+                        <div class="swiper-slide-card swiper-card">
+                            <div class="swiper-card-up"><p>Game name</p><span class="swiper-card-price">2000.00 <span class="rubl">&#8381</span></span></div>
+                            <div class="swiper-card-stars">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                                <img src="/assets/img/stars.svg" alt="Рейтинг">
+                            </div>
+                            <div class="swiper-card-line"></div>
+                            <div class="swiper-card-text">Сервис попросил две верификации, но все прошло норм</div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+    
+                  
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                    <!-- <div class="swiper-button-next"></div> -->
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+            </section>
+
+            <section id="why" class="why section container">
+                <h2 class="why__title">Почему melby.ru можно доверять?</h2>
+                <div class="why__items">
+                    <div class="why__item">
+                        <div class="why__item-text">
+                            <p class="why__item-title">Надежность</p>
+                            <div class="why__item-list">
+                                <p>  Персональный аттестат Webmoney выдан в 2009 году.</p>
+                                <p>  Больше двух лет на рынке цифровых и материальных товаров в сфере безопасной сделки.</p>
+                                <p>  Система вычисления вероятности того, что партнер по сделке - мошенник.</p>
+                                <p>  Актуальный черный список с автоматической проверкой всех пользователей.</p>
+                                <p>  Финансовые транзакции проходят через счёт в государственном банке.</p>
+                            </div>
+                        </div>
+                        <div class="why__item-img">
+                            <img src="/assets/img/why1.png" alt="Защита">
+                        </div>
+                    </div>
+
+                    <div class="why__item" id="why">
+                        <div class="why__item-img">
+                            <img src="/assets/img/why2.png" alt="Защита">
+                        </div>
+                        <div class="why__item-text">
+                            <p class="why__item-title">Конфиденциальность</p>
+                            <div class="why__item-list">
+                                <p>  Сделка проходит на закрытой странице, доступ к которой есть только у участников сделки и модератора сервиса.</p>
+                                <p>  Запрет публикации данных для идентификации продаваемого товара/услуги.</p>
+                                <p>  Простое урегулирование спорных ситуаций между продавцом и покупателем.</p>
+                                <p>  Возможность проводить защищенные платежи между физическими лицами.</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="why__item">
+                        <div class="why__item-text">
+                            <p class="why__item-title">Удобство</p>
+                            <div class="why__item-list">
+                                <p>  Автоматизированное проведение сделки без участия реального поссредника.</p>
+                                <p>  Круглосуточная работа сервиса - сервис доступен к использованию в любое время суток.</p>
+                                <p>  Защита сделок купли-продажи 24/7 без похода к юристу и в банк.</p>
+                            </div>
+                        </div>
+                        <div class="why__item-img">
+                            <img src="/assets/img/why3.png" alt="Защита">
+                        </div>
+                    </div>
+                    <a href="/assets/pages/sign-up.html" class="why__item-btn btn">Создать аккаунт</a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer id="footer" class="footer section">
+            <div class="footer__wrapper container">
+                <div class="footer__main">
+                    <a href="#" class="footer__logo header__logo"><span class="green">M</span>elby</a>
+                    <div class="footer__links">
+                        <a href="#" class="footer__link header__link">Для кого</a>
+                        <a href="#" class="footer__link header__link">Помощь</a>
+                        <a href="#" class="footer__link header__link">Сертификаты</a>
+                        <a href="#" class="footer__link header__link">Отзывы</a>
+                    </div>
+                    <div class="footer__images">
+                        <img src="/assets/img/footer1.svg" alt="Webmoney">
+                        <img src="/assets/img/footer2.svg" alt="Pci">
+                        <img src="/assets/img/footer3.svg" alt="SSL">
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    ©2020-2022 Гарант сервис melby.ru
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="/assets/libs/just-validate.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>

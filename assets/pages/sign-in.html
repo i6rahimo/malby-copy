@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- <script src="../js/main.js" defer></script> -->
+
+    <title>Войти</title>
+</head>
+<body>
+    
+    <header class="header container" id="header">
+        <div class="header__wrapper">
+            <a href="../../index.html" class="header__logo"><span class="green">M</span>elby</a>
+            <nav class="header__nav header__nav-copy">
+                <ul class="header__ul">
+                    <li class="header__li">
+                        <a href="for-whom.html" class="header__link">Для кого</a>
+                    </li>
+                    <!-- <li class="header__li">
+                        <a href="#" class="header__link">Помощь</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Сертификаты</a>
+                    </li> -->
+                    <li class="header__li">
+                        <a href="../../index.html#review" class="header__link">Отзывы</a>
+                    </li>
+                </ul>
+                <ul class="header__ul header__ul-register">
+                    <li class="header__li">
+                        <a href="#" class="header__link header__link-signin">Войти</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="sign-up.html" class="header__link green header__link-signup">Создать аккаунт</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="page">
+    <main class="main">
+        <section class="signin container">
+            <form class="signin__form" id="signin__form">
+                <div class="signin__header">
+                    <p>Войти</p>
+                <a class="form-close">
+                    <img class="" src="/assets/img/close-form.svg" alt="Закрыть">
+                </a>
+                </div>
+                <div class="form__input-wrapper">                
+                <label class="  user_login" id="user_login">
+                    <input class="input input_user" type="text" name="user_login" id="user_login" placeholder="Логин">
+                      <!-- <span class="form-error-text">Неправильный логин</span> -->
+                </label>
+                <span class="form-error-text error">Неправильный логин</span>
+                <div class="form__password input login-password">
+                    <div class="input__password-wrapper">
+                        <input type="password" class="user_password" name="user_password-signin" id="user_password-signin" placeholder="Пароль">
+                        <picture class="see-password-signin" id="see-password-signin">
+                            <svg class="eye-hide-login" width="20" height="13" viewBox="0 0 20 13" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0.25C5.83337 0.25 2.27504 2.84167 0.833374 6.5C2.27504 10.1583 5.83337 12.75 10 12.75C14.1667 12.75 17.725 10.1583 19.1667 6.5C17.725 2.84167 14.1667 0.25 10 0.25ZM10 10.6667C7.70004 10.6667 5.83337 8.8 5.83337 6.5C5.83337 4.2 7.70004 2.33333 10 2.33333C12.3 2.33333 14.1667 4.2 14.1667 6.5C14.1667 8.8 12.3 10.6667 10 10.6667ZM10 4C8.61671 4 7.50004 5.11667 7.50004 6.5C7.50004 7.88333 8.61671 9 10 9C11.3834 9 12.5 7.88333 12.5 6.5C12.5 5.11667 11.3834 4 10 4Z" />
+                                </svg>   
+                                <svg class="eye-see-login" width="20" height="20" viewBox="0 0 20 20"  xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6" clip-path="url(#clip0_477_838)">
+                                    <g clip-path="url(#clip1_477_838)">
+                                    <path d="M9.99999 4.25C5.83333 4.25 2.27499 6.84167 0.833328 10.5C2.27499 14.1583 5.83333 16.75 9.99999 16.75C14.1667 16.75 17.725 14.1583 19.1667 10.5C17.725 6.84167 14.1667 4.25 9.99999 4.25ZM9.99999 14.6667C7.69999 14.6667 5.83333 12.8 5.83333 10.5C5.83333 8.2 7.69999 6.33333 9.99999 6.33333C12.3 6.33333 14.1667 8.2 14.1667 10.5C14.1667 12.8 12.3 14.6667 9.99999 14.6667ZM9.99999 8C8.61666 8 7.49999 9.11667 7.49999 10.5C7.49999 11.8833 8.61666 13 9.99999 13C11.3833 13 12.5 11.8833 12.5 10.5C12.5 9.11667 11.3833 8 9.99999 8Z" fill="white"/>
+                                    </g>
+                                    <line x1="-2.53033" y1="21.9697" x2="22.4697" y2="-3.03033" stroke="white" stroke-width="1.5"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_477_838">
+                                    <rect width="20" height="20" fill="white"/>
+                                    </clipPath>
+                                    <clipPath id="clip1_477_838">
+                                    <rect width="20" height="20" ftransform="translate(0 0.5)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                        </picture>
+                    </div>
+                </div>
+                <span class="form-error-text">Неправильный пароль</span>
+            </div>
+                <a href="deals.html" class="btn signin-btn">Войти</a>
+                <div class="signin__footer">
+               
+                    <div class="signin__footer-signup">
+                        <a href="#" class="signin__footer-signup">Нету учетной записи?</a>
+                        <a href="sign-up.html" class="green"> Зарегистрироваться</a>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer__wrapper container">
+            <div class="footer__main">
+                <a href="../../index.html" class="footer__logo header__logo"><span class="green">M</span>elby</a>
+                <div class="footer__links">
+                    <a href="for-whom.html" class="footer__link header__link">Для кого</a>
+                    <a href="help.html" class="footer__link header__link">Помощь</a>
+                    <a href="sertificat.html" class="footer__link header__link">Сертификаты</a>
+                    <a href="#" class="footer__link header__link">Отзывы</a>
+                </div>
+                <div class="footer__images">
+                    <img src="/assets/img/footer1.svg" alt="Webmoney">
+                    <img src="/assets/img/footer2.svg" alt="Pci">
+                    <img src="/assets/img/footer3.svg" alt="SSL">
+                </div>
+            </div>
+            <div class="footer__copyright">
+                ©2020-2022 Гарант сервис melby.ru
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script>
+            function showPassword() {
+  const icons = document.querySelector('#see-password-signin');
+  const passwords = document.querySelector('#user_password-signin');
+  icons.addEventListener('click', ()=> {
+    icons.classList.toggle('hide');
+    const type = passwords.getAttribute('type') === 'password' ? 'text' : 'password';
+    passwords.setAttribute('type', type);
+  })
+}
+showPassword()
+        </script>
+        <script src="../js/main.js"></script>
+</div>
+</body>
+</html>
