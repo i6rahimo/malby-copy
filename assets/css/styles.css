@@ -730,7 +730,7 @@ background: var(--green-color);
 }
 .footer__links {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
   width: 500px;
   max-width: 100%;
   gap: 30px;
