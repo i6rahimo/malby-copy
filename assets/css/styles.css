@@ -157,10 +157,9 @@ button {
   z-index: -1;
 }
 .header__nav {
-  width: 880px;
+  width: 780px;
   max-width: 100%;
   display: flex;
-  justify-content: space-between;
   margin: 0 0 0 30px;
 }
 .header__ul {
@@ -730,10 +729,18 @@ background: var(--green-color);
 }
 .footer__links {
   display: flex;
+  align-items: flex-end;
   justify-content: center;
-  width: 500px;
+  width: 750px;
   max-width: 100%;
   gap: 80px;
+}
+.footer__links-link {
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 64px;
+  display: flex;
+  justify-content: flex-end;
 }
 .footer__main {
   display: flex;
@@ -823,7 +830,7 @@ background: var(--green-color);
   text-align: center;
 }
 .stages__title-title {
-  margin: 0 0 24px;
+  margin: 0 0 14px;
   font-size: 28px;
 }
 .stages__title-subtitle {
@@ -1578,8 +1585,9 @@ background: var(--green-color);
 .history__takes.active {
   display: block;
 }
-
-
+.history__btn {
+  margin: 24px auto 24px;
+}
 /* =========== SIGN IN ================ */
 
 
@@ -1951,8 +1959,9 @@ letter-spacing: 0.012em;
   max-width: 100%;
 }
 .header__nav-copy {
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 64px;
+  width: 680px;
 }
 /*=============== BREAKPOINTS ===============*/
 @media (max-width: 990px) {
@@ -1970,6 +1979,12 @@ letter-spacing: 0.012em;
   }
 }
 @media (max-width: 961px){
+  .deals__result-btns {
+    justify-content: center;
+  }
+  .deals__sum-create, .settings-btn, .history__transfer-send  {
+    margin: 24px auto 24px;
+  }
   .deals-ul {
     margin: 0;
   }
@@ -2029,6 +2044,12 @@ letter-spacing: 0.012em;
     /* transform; */
     transition: transform .3s ease;
 
+  }
+  .footer__links-link {
+    gap: 14px;
+  }
+  .footer__links {
+    align-items: center;
   }
   .deals-nav.deals-nav {
     /* width: auto; */
@@ -2090,7 +2111,7 @@ letter-spacing: 0.012em;
     gap: 30px;
   }
   .footer__links {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 20px;
   }
   .how-work-message {

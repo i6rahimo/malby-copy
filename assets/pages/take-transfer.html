@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Мои сделки</title>
+    <title>Мой счет</title>
 </head>
 <body>
     <header class="header container" id="header">
@@ -68,57 +68,106 @@
         </div>
     </header> 
     <div class="page">
-    <main class="main deals-main">
+    <main class="main">
         <section class="deals__banner-wrapper container">
-            <div class="deals__banner">
-                <p class="deal__banner-text">Мои сделки</p>
-                <a href="create-deals.html" class="btn deals__banner-btn">Создать сделку</a>
+            <div class="core__wrapper">
+            <div class="deals__banner deals__status-banner">
+                <p class="deal__banner-text deal__banner-text-status">Мой счет: <span>20500<span class="rubl">&#8381</span></span></p>
+                <a href="put-core.html" class="btn ">Пополнить счёт</a>
             </div>
-        </section>
-        <div class="deals__frame-wrapper container">
-            <div class="deals__frame">
-                <a href="#" class="deals__btn btn">Подтвердить участие</a>
-                <div class="deals__frame-content">
-                    <div class="deals__frame-item">
-                        <p>Номер сделки</p>
-                        <span class="deals__frame-number">#4443434</span>
-                    </div>
-                    <div class="deals__frame-item frame-name">
-                        <p>Название</p>
-                        <span class="deals__frame-name ">Супер тупое название</span>
-                    </div>
-                    <div class="deals__frame-item">
-                        <p>Сумма</p>
-                        <span class="deals__farme-price">2000.00<span class="rubl">&#8381</span></span>
-                    </div>
-                    <div class="deals__frame-item">
-                        <p>Статус</p>
-                        <span class="deals__frame-status green">Завершена <img src="../img/deals-status.svg" alt="Опалчено"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="deals__frame">
-                <a href="status-deals.html" class="deals__btn btn deals__btn-go">Перейти к сделке</a>
-                <div class="deals__frame-content">
-                    <div class="deals__frame-item">
-                        <p>Номер сделки</p>
-                        <span class="deals__frame-number">#4443434</span>
-                    </div>
-                    <div class="deals__frame-item frame-name">
-                        <p>Название</p>
-                        <span class="deals__frame-name ">Супер тупое название</span>
-                    </div>
-                    <div class="deals__frame-item">
-                        <p>Сумма</p>
-                        <span class="deals__farme-price">2000.00<span class="rubl">&#8381</span></span>
-                    </div>
-                    <div class="deals__frame-item">
-                        <p>Статус</p>
-                        <span class="deals__frame-status green">Завершена <img src="../img/deals-status.svg" alt="Опалчено"></span>
-                    </div>
-                </div>
+            <div class="deals__sum-line core-line"></div>
+            <div class="notification">
+                <div class="notification__item">melby.ru не является банком, платежной системой или иной финансовой организацией и не ведет расчетные счета пользователей.
+                    Кабинет melby.ru обеспечивает лишь удобство расчетов между Клиентами.</div>
+                    <div class="notification__item">Перевод осуществляется в течении 24ч.
+                        Кабинет melby.ru обеспечивает лишь удобство расчетов между Клиентами.</div>
+                        <div class="notification__item">nikname, на данный момент, переводы и выводы для вашей учетной записи приостановлены. Описание причины ограничений вы можете найти в системных сообщениях.</div>
             </div>
         </div>
+        </section>
+
+        <section class="history container">
+            <p class="history__title">История</p>
+            <div class="can__items history__items">
+                <a href="core.html" class="can__item history__item stop-active transfer-hostory">История пополнений</a>
+                <a href="core.html" class="can__item history__item stop-active active">Выводы по реквизитам</a>
+                <div class="can__item history__item ">Перевод пользователю</div>
+            </div>
+            
+            <!-- <div class="hostory__takes">
+                <div class="hostory__take hostory__take-first">
+                    <div class="hostory__take-id">
+                        <p>ID</p>
+                        <span>110</span>
+                    </div>
+                    <div class="hostory__take-date">
+                        <p>Дата</p>
+                        <span>2022-09-18 19:50</span>
+                    </div>
+                    <div class="hostory__take-type">
+                        <p>Тип реквизита</p>
+                        <span>Сбербанк</span>
+                    </div>
+                    <div class="hostory__take-number">
+                        <p>Номер счета</p>
+                        <span>2019232193</span>
+                    </div>
+                    <div class="hostory__take-sum">
+                        <p>Сумма</p>
+                        <span>50000Р</span>
+                    </div>
+                    <div class="hostory__take-status">
+                        <p>Статус</p>
+                        <span class="green">Оплачено <img src="/assets/img/deals-status.svg" alt="Оплачено"></span>
+                    </div>
+                </div>
+                <div class="deals__sum-line history-line"></div>
+                <div class="hostory__take hostory__take-second">
+                    <div class="hostory__take-id">
+                        <p>ID</p>
+                        <span>110</span>
+                    </div>
+                    <div class="hostory__take-date">
+                        <p>Дата</p>
+                        <span>2022-09-18 19:50</span>
+                    </div>
+                    <div class="hostory__take-type">
+                        <p>Тип реквизита</p>
+                        <span>Сбербанк</span>
+                    </div>
+                    <div class="hostory__take-number">
+                        <p>Номер счета</p>
+                        <span>2019232193</span>
+                    </div>
+                    <div class="hostory__take-sum">
+                        <p>Сумма</p>
+                        <span>50000Р</span>
+                    </div>
+                    <div class="hostory__take-status">
+                        <p>Статус</p>
+                        <span class="green">Оплачено <img src="/assets/img/deals-status.svg" alt="Оплачено"></span>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="history__takes history__history" id="history"></div> -->
+            <div class="hostory__takes history__transfers">
+                <form class="history__transfer-form">
+                    <label>
+                        Платежная система
+                        <input type="text" class="history__transfer-user_login input" placeholder="">
+                    </label>
+                    <label>
+                        Номер карты/кошелька
+                            <input type="text" class=" input" placeholder="">
+                    </label>
+                    <label>
+                        Сумма
+                            <input type="text" class=" input" placeholder="">
+                    </label>
+                    <button class="btn history__transfer-send">Вывести</button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="footer section deals-footer">
         <div class="footer__wrapper container">
