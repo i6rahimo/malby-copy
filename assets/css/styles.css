@@ -1239,6 +1239,7 @@ background: var(--green-color);
   background-color: var(--black-color);
   border-radius: 28px;
   position: relative;
+  margin-right: auto;
 }
 
 .select {
