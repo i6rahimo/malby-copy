@@ -1022,7 +1022,7 @@ background: var(--green-color);
   background-color: var(--black-light);
   border-radius: 8px;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
   padding: 24px;
   max-width: 100%;
@@ -1879,6 +1879,7 @@ letter-spacing: 0.012em;
 }
 .deals-progress.crush {
   background-color: #FC0101;
+  margin-right: auto;
 }
 .deals-progress.crush .deals-progress-fill {
   background-color: #FC0101;
