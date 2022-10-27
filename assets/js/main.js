@@ -145,9 +145,9 @@ return false;
     btnStatus.forEach(e=> {
       e.addEventListener('click', element => {
         statusProgressBar.forEach(e=> {
-          e.classList.toggle('crush')
+          e.classList.add('crush')
         })
-        statusText.forEach(item=> {item.classList.toggle('crush')})
+        statusText.forEach(item=> {item.classList.add('crush')})
       })
     })
   }
