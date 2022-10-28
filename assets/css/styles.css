@@ -2049,7 +2049,7 @@ letter-spacing: 0.012em;
 
   }
   .footer__links-link {
-    gap: 6px;
+    gap: 14px;
   }
   .footer__links {
     align-items: center;
@@ -2201,5 +2201,10 @@ letter-spacing: 0.012em;
   .settings-form label{
     column-gap: 60px;
     /* flex-direction: column; */
+  }
+}
+@media (max-width: 385px) {
+  .footer__links-link {
+    gap: 5px;
   }
 }
