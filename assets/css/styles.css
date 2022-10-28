@@ -1959,9 +1959,12 @@ letter-spacing: 0.012em;
   max-width: 100%;
 }
 .header__nav-copy {
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 64px;
+}
+.header__nav-copy_index {
   width: 680px;
+  justify-content: space-between;
 }
 /*=============== BREAKPOINTS ===============*/
 @media (max-width: 990px) {
