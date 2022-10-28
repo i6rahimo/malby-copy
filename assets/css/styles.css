@@ -789,7 +789,7 @@ background: var(--green-color);
 }
 .steps__item {
   width: 385px;
-  max-width: 100%;
+  max-width: 130%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -2143,7 +2143,7 @@ letter-spacing: 0.012em;
     justify-content: center;
   }
  .header__nav-copy .header__ul {
-    margin: 0 0 40px;
+    margin: 0 0 80px;
   }
   .header__nav-copy_index {
     justify-content: center;
