@@ -736,7 +736,7 @@ background: var(--green-color);
   gap: 80px;
 }
 .footer__links-link {
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 100%;
   gap: 64px;
   display: flex;
@@ -2144,6 +2144,12 @@ letter-spacing: 0.012em;
   }
  .header__nav-copy .header__ul {
     margin: 0 0 40px;
+  }
+  .header__nav-copy_index {
+    justify-content: center;
+  }
+  .header__nav-copy_index .header__ul {
+    margin: 0 0 160px;
   }
 } 
 
